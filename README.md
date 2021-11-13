@@ -23,8 +23,9 @@ Second, please install the following tools:
 ## Usage
 PhageTailFinder is a phage tail protein prediction tool. A standalone version has been developed for use in this project.The program supports single phage file input or multiple phage inputs.You can enter a phage sequence file in FastA or GenBank format, and the program will automatically convert the format and predict the return result.You can also enter the GenomeID list of phages, and the program will automatically identify and download all the phage sequences in the list and make batch predictions, and return a table to store the predictions of all phages.
 ### Command line options
-(1) the genome viewer to display all predicted prophages and att sites
-![image](https://raw.githubusercontent.com/HIT-ImmunologyLab/PhageTailFinder/image/usage.png)
+
+![image](https://github.com/HIT-ImmunologyLab/PhageTailFinder/blob/main/image/useage.png)
+
 ## Contributors
 This project exists thanks to all the people who contribute.
 
