@@ -8,9 +8,9 @@
 - [Contributors](#contributors)
 - [License](#license)
 ## Introudction
-PhageTailFinders is an effective tool to predict phage tail protein based on hidden Markov model. The reliability of this tool has been tested, and the results have good accuracy and low error rate. At the same time, compared with other tools, the prediction speed of this tool is faster and the effect is better.The standalone version of the whole tool is built and good visualization results are provided. The Python program combining multiple steps is also concentrated in a script file, which is convenient for users to use the multi-phage batch prediction provided in the tool and can also provide more results and more accurate rules for researchers to use.
+PhageTailFinders is an effective tool to predict phage tail protein based on hidden Markov model. The reliability of this tool has been tested, and the results have good accuracy and low error rate. At the same time, compared with other tools, the prediction speed of this tool is faster and the effect is better.The standalone version of the whole tool is built and good visualization results are provided. The Python program combining multiple steps is also concentrated in a script file, which is convenient for users to use the multi-phage batch prediction provided in the tool.
 ## Requirements ##
-The source code is written by python3. In addition, several tools have been applied in DBSCAN-SWA. Among these, Prokka requires installtion by users. <br>
+The source code is written by python3. <br>
 First, please install the following python packages:
 
 1. numpy
@@ -20,8 +20,11 @@ First, please install the following python packages:
 3. sklearn
 
 Second, please install the following tools:
-
-
+## Usage
+PhageTailFinder is a phage tail protein prediction tool. A standalone version has been developed for use in this project.The program supports single phage file input or multiple phage inputs.You can enter a phage sequence file in FastA or GenBank format, and the program will automatically convert the format and predict the return result.You can also enter the GenomeID list of phages, and the program will automatically identify and download all the phage sequences in the list and make batch predictions, and return a table to store the predictions of all phages.
+### 
+## Contributors
+This project exists thanks to all the people who contribute.
 
 ## License
 
