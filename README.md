@@ -19,7 +19,13 @@ First, please install the following python packages:
  
 3. sklearn
 
-Second, please install the following tools:
+4. 
+
+## Install ##
+#### Linux
+- step1:Download the whole packages and partial profiles from [https://github.com/HIT-ImmunologyLab/PhageTailFinder](https://github.com/HIT-ImmunologyLab/PhageTailFinder)
+```
+
 ## Usage
 PhageTailFinder is a phage tail protein prediction tool. A standalone version has been developed for use in this project.The program supports single phage file input or multiple phage inputs.You can enter a phage sequence file in FastA or GenBank format, and the program will automatically convert the format and predict the return result.You can also enter the GenomeID list of phages, and the program will automatically identify and download all the phage sequences in the list and make batch predictions, and return a table to store the predictions of all phages.
 ### Command line options
