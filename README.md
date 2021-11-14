@@ -32,10 +32,10 @@ git clone https://github.com/HIT-ImmunologyLab/PhageTailFinder
 
 ![image](https://github.com/HIT-ImmunologyLab/PhageTailFinder/blob/main/image/useage.png)
 
-### Start DBSCAN-SWA
+### Start PhageTailFinder
 
 The python script is also provided for expert users<br>
-predict prophages of query bacterium with default parameters:
+predict phage tail protein with default parameters:
 
 ```
 predict.py [-h] -i INPUT -o OUTPUT [--accurate--mode] [--hmmscan--evalue HMMSCAN__EVALUE] [--phagelist--mode]
@@ -46,13 +46,7 @@ predict.py [-h] -i INPUT -o OUTPUT [--accurate--mode] [--hmmscan--evalue HMMSCAN
 
 File Name | Description
 ---|---
-\<prefix\>\_DBSCAN-SWA\_prophage\_summary.txt | the tab-delimited table contains predicted prophage informations including prophage location, specific phage-related key words, CDS number, infecting virus species by a majority vote and att sites
-\<prefix\>\_DBSCAN-SWA\_prophage.txt | this table not only contains the information in <prefix>\_DBSCAN-SWA\_prophage\_summary.txt but also contains the detailed information of prophage proteins and hit parameters between the prophage protein and hit uniprot virus protein
-<prefix>\_DBSCAN-SWA\_prophage.fna| all predicted prophage Nucleotide sequences in FASTA format
-<prefix>\_DBSCAN-SWA\_prophage.faa| all predicted prophage protein sequences in FASTA format
-**Phage Annotation**| if add\_annotation!=none, the following files are in "prophage\_annotation" 
-<prefix>\_prophage\_annotate\_phage.txt | the tab-delimited table contains the information of prophage-phage pairs with prophage\_homolog\_percent, prophage\_alignment\_identity and prophage\_alignment\_coverage
-<prefix>\_prophage\_annotate\_phage.txt | the table contains the detailed information of bacterium-phage interactions including blastp and blastn results 
+ 
 ## Contributors
 This project exists thanks to all the people who contribute.
 
