@@ -4,7 +4,6 @@
 - [Requirements](#requirements)
 - [Install](#install)
 - [Usage](#usage)
-- [Visualizations](#visualization)
 - [Contributors](#contributors)
 - [License](#license)
 ## Introudction
@@ -24,7 +23,9 @@ First, please install the following python packages:
 ## Install ##
 #### Linux
 - step1:Download the whole packages and partial profiles from [https://github.com/HIT-ImmunologyLab/PhageTailFinder](https://github.com/HIT-ImmunologyLab/PhageTailFinder)
-
+```
+git clone https://github.com/HIT-ImmunologyLab/PhageTailFinder
+```
 
 ## Usage
 ### Command line options
@@ -34,19 +35,13 @@ First, please install the following python packages:
 ### Start DBSCAN-SWA
 
 The python script is also provided for expert users<br>
-1.predict prophages of query bacterium with default parameters:
+predict prophages of query bacterium with default parameters:
 
 ```
-python <path>/dbscan-swa.py --input <bac_path> --output <outdir> --prefix <prefix>
+predict.py [-h] -i INPUT -o OUTPUT [--accurate--mode] [--hmmscan--evalue HMMSCAN__EVALUE] [--phagelist--mode]
+
 ```
-2. predict prophages of query bacterium and no phage annotation:
-```
-python <path>/dbscan-swa.py --input <bac_path> --output <outdir> --prefix <prefix> --add_annotation none
-```
-3. predict prophages of query bacterium and detect the bacterium-phage interaction between the query bacterium and query phage:
-```
-python <path>/dbscan-swa.py --input <bac_path> --output <outdir> --prefix <prefix> --add_annotation <phage_path>
-```
+
 ### Outputs
 
 File Name | Description
