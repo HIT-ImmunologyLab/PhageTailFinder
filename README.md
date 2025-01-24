@@ -42,6 +42,7 @@ predict.py [-h] -i INPUT -o OUTPUT [--accurate--mode] [--hmmscan--evalue HMMSCAN
 
 ```
 ### Download HMM model to annotate tail protein or non-protein
+wget http://www.microbiome-bigdata.com/PHISDetector/static/download/PhageTailFinder/db.tar.gz
 
 ### Outputs
 
