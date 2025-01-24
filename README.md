@@ -41,6 +41,7 @@ predict phage tail protein with default parameters:
 predict.py [-h] -i INPUT -o OUTPUT [--accurate--mode] [--hmmscan--evalue HMMSCAN__EVALUE] [--phagelist--mode]
 
 ```
+### Download HMM model to annotate tail protein or non-protein
 
 ### Outputs
 
